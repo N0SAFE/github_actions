@@ -32,3 +32,4 @@ jobs:
           remote_path: /var/www/actionsTest
           remote_host: 51.91.108.29
           remote_user: debian
+          remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
